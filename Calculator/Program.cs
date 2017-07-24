@@ -12,7 +12,7 @@ namespace Calculator
             var pattern = @"(\d+)\s*([-+*/])\s*(\d+)"; //regular expression
             Math math = new Math(); //initialize Math Class
             
-            while (true)
+            while (true) 
             {
                 Console.Write("Perform a simple calculation (e.g 25*2 or 15-3): ");
                 expressions.Add(Console.ReadLine());
